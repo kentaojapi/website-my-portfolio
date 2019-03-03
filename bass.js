@@ -46,14 +46,14 @@ $(function(){
 	$('.works-img').lazyload({
 		effect: 'fadeIn',
 		effectspeed: 1000,
-		threshold: 1
+		threshold: 300
 	});
 });
 
 // instagram
-(function($){
+$(function($){
     var responsive = function(){
-        $('.oembed-instagram iframe').each(function(){
+        $('.embed-instagram iframe').each(function(){
             var vertical = 114;
             var horizontal = 16;
             var height = $(this).width() - horizontal + vertical;

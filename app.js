@@ -1,9 +1,9 @@
-particlesJS('hoge',{
+particlesJS('particle',{
   "particles":{
  
 //--シェイプの設定----------
       "number":{
-        "value":50, //シェイプの数
+        "value":31, //シェイプの数
         "density":{
           "enable":true, //シェイプの密集度を変更するか否か
           "value_area":400 //シェイプの密集度
@@ -27,10 +27,10 @@ particlesJS('hoge',{
         }
       },
       "color":{
-        "value":"#d3d3d3" //シェイプの色
+        "value":"#06C279" //シェイプの色
       },
       "opacity":{
-        "value":5, //シェイプの透明度
+        "value":0.8, //シェイプの透明度
         "random":false, //シェイプの透明度をランダムにするか否か
         "anim":{
           "enable":false, //シェイプの透明度をアニメーションさせるか否か
@@ -40,7 +40,7 @@ particlesJS('hoge',{
         }
       },
       "size":{
-        "value":5, //シェイプの大きさ
+        "value":15, //シェイプの大きさ
         "random":true, //シェイプの大きさをランダムにするか否か
         "anim":{
           "enable":false, //シェイプの大きさをアニメーションさせるか否か
@@ -54,7 +54,7 @@ particlesJS('hoge',{
 //--線の設定----------
       "line_linked":{
         "enable":true, //線を表示するか否か
-        "distance":150, //線をつなぐシェイプの間隔
+        "distance":300, //線をつなぐシェイプの間隔
         "color":"#d3d3d3", //線の色
         "opacity":0.4, //線の透明度
         "width":1 //線の太さ
@@ -66,7 +66,7 @@ particlesJS('hoge',{
         "speed":3, //シェイプの動くスピード
         "straight":false, //個々のシェイプの動きを止めるか否か
         "direction":"none", //エリア全体の動き(none、top、top-right、right、bottom-right、bottom、bottom-left、left、top-leftより選択)
-        "out_mode":"out" //エリア外に出たシェイプの動き(out、bounceより選択)
+        "out_mode":"bounce" //エリア外に出たシェイプの動き(out、bounceより選択)
       }
 //--------------------
 
