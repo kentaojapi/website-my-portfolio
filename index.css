@@ -16,15 +16,9 @@ body {
 	font-family: Courier, 'Yu Gothic';
 	color: black;
 	background-attachment: fixed;
-	/* background-size: cover;
-	background-color: #f8f8ff;
-	background-image: url("img/plant_planet.jpg"); */
 }
 
 #particle {
-	/*
-	width: 100%;
-	height: 100%;*/
 	margin: 15vh 15vw 30vh 30vw;
 	position: fixed;
 	top: 0;
@@ -227,8 +221,6 @@ body {
 	margin-bottom:15px;
 	font-size:14px;
 	box-shadow: 0 2px 5px #ccc;
-	width: auto;
-	height: auto;
 }
 
 .grid-type {
@@ -237,12 +229,60 @@ body {
 	margin-bottom: 0px;
 }
 
+/*
 .grid-media {
 	width: 90%;
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-top:1em;
-	margin-bottom:2px;
+	height: auto;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top:1em;
+	padding-bottom:2px;
+}
+
+.grid-media iframe{
+	width: 100%;
+}
+*/
+
+.grid-media {
+    position: relative;
+    width: 100%;
+}
+
+.grid-media:before {
+    content:"";
+    display: block;
+		margin: 1em 0px;
+		width: 90%;
+    padding-top: 56.25%; /* 16:9 */
+}
+.grid-media .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+
+.grid-media-instagram {
+    position: relative;
+    width: 100%;
+}
+
+.grid-media-instagram:before {
+    content:"";
+    display: block;
+		margin: 1em 0px;
+		width: 90%;
+    padding-top: 100%;
+}
+.grid-media-instagram .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
 }
 
 .grid-hr {
