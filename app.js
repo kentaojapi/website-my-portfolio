@@ -3,10 +3,10 @@ particlesJS('particle',{
  
 //--シェイプの設定----------
       "number":{
-        "value":31, //シェイプの数
+        "value":30, //シェイプの数
         "density":{
-          "enable":true, //シェイプの密集度を変更するか否か
-          "value_area":400 //シェイプの密集度
+          "enable":false, //シェイプの密集度を変更するか否か
+          "value_area":1000 //シェイプの密集度
         }
       },
       "shape":{
@@ -55,7 +55,7 @@ particlesJS('particle',{
       "line_linked":{
         "enable":true, //線を表示するか否か
         "distance":300, //線をつなぐシェイプの間隔
-        "color":"#d3d3d3", //線の色
+        "color":"#a9a9a9", //線の色
         "opacity":0.4, //線の透明度
         "width":1 //線の太さ
       },
