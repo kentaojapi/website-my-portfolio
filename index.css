@@ -83,14 +83,12 @@ body {
 
 /* container ------ */
 .container {
-	/* float: right; */
 	box-sizing: content-box;
 	width: auto;
 	height: auto;
 	padding: 100px 18vw 0px 18vw;
 	background-color: transparent;
 }
-	/* background-color: rgba(0, 0, 0, 0.8); */
 
 .menu-title {
 	padding-top: 50px;
@@ -164,7 +162,6 @@ body {
 }
 
 /* Txt ----- */
-
 .grid-container {
 	padding: 10px 10vw 10px 10vw;
 }
