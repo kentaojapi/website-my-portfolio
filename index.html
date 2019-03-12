@@ -3,7 +3,18 @@
   <head>
     <title>Kenta Ojapi</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta property="og:url" content="http://works.kentaojapi.info/" />
+		<meta property="og:title" content="Kenta Ojapi Portfolio" />
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="記事の抜粋" />
+		<meta property="og:image" content="https://s3-ap-northeast-1.amazonaws.com/works.kentaojapi.info/img/ojapi.jpg" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@kenta_ojapi" />
+		<meta property="og:locale" content="ja_JP" />
+
     <link rel="stylesheet" href="index.css" type="text/css" >
+		<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/jquery-fade.js"></script>
 		<script src="particles.js"></script>
@@ -15,8 +26,7 @@
   <body>
 		<div class="top">
 			<div id="particle"></div>
-			<div class="logo">Kenta Ojapi Portfolio</div>
-	
+			<img class="title-logo" src="img/title.png" />	
 			<ul id='nav'>
 				<li><a href="#about">About/Contact</a></li>
 				<li><a href="#musicworks">MusicWorks</a></li>
@@ -31,14 +41,20 @@
 				<p class='menu-title'>About/Contact</p>
 				<!--<img src="ojapi.jpg"></img>-->
 				<p class="about-txt">Kenta Ojapi(Ozaki Kenta)</p>
-				<p id='about-txt'>音楽制作（楽曲制作/Mix）、楽器演奏(Guitar/BassGuitar）、プログラミング（WebDesign/Python/Rails）を行っています。</p>
-				<p class="about-txt">楽曲制作、Webサイト制作のご相談は、以下のアドレスにご連絡ください。</br>Mail: kenta_ozaki@outlook.jp</p>
+				<p id='about-txt'>音楽制作（楽曲制作/Mix）、楽器演奏(Guitar/BassGuitar）、プログラミング（Web制作/Python）を行っています。</p>
+				<p class="about-txt">楽曲制作、Webサイト制作のご相談は、以下のアドレスにご連絡ください。</p>
+				<p class="about-txt">Mail: kenta_ozaki@outlook.jp</p>
+				<ul class="icons">
+					<li><a href="https://github.com/kentaojapi"><i class="fab fa-github-square fa-3x icon-color"></i></a></li>
+					<li><a href="https://twitter.com/kenta_ojapi"><i class="fab fa-twitter-square fa-3x icon-color"></i></a></li>
+					<li><a href="https://note.mu/kenta_ojapi"><i class="fas fa-sticky-note fa-3x icon-color"></i></a></li>
+				</ul>
+				<div class="float-break"></div>
 			</div>
 
 			<!-- MusicWoroks -->
 			<div id="musicworks">
 				<p class='menu-title'>Music Works</p>
-
 
 				<hr class ='border'>
 				<div class="works-img">
@@ -47,7 +63,7 @@
 				<div class="works-info">
 					<p class="works-date">2019-03</p>
 					<p class="works-name">めいエルちゃんねる エンディングテーマ</p>
-					<p class="works-txt">楽曲提供.作曲、トラック作成、録音、ミックス</p>
+					<p class="works-txt">楽曲提供. 作曲、トラック作成、録音、ミックス</p>
 				</div>
 				<hr class='border'>
 
@@ -98,7 +114,7 @@
 				<div class="works-info">
 					<p class="works-date">2014-09</p>
 					<p class="works-name">"暇スイッチ" PR動画</p>
-					<p class="works-txt">楽曲提供、作曲、演奏、録音.</p>
+					<p class="works-txt">楽曲提供. 作曲、演奏、録音.</p>
 				</div>
 				<hr class="border">
 			
