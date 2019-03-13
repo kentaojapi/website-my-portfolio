@@ -44,9 +44,9 @@ body {
 /* menu ------ */
 #nav {
 	position: absolute;
-	padding: 0px 4vw 0px 4vw;
+	padding: 0px 10vw 0px 4vw;
 	margin: 0px;
-	width: 80vw;
+	width: 70vw;
 	list-style: none;
 	overflow: hidden;
 }
