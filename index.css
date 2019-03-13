@@ -25,7 +25,7 @@ body {
 }
 
 #particle {
-	margin: 15% 15% 15% 15%;
+	margin: 18vh 15vw 18vh 40vw;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -47,7 +47,7 @@ body {
 	position: absolute;
 	padding: 0px 4vw 0px 4vw;
 	margin: 0px;
-	width: 92vw;
+	width: 70vw;
 	list-style: none;
 	overflow: hidden;
 }

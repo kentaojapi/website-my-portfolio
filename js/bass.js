@@ -1,6 +1,9 @@
 // fade in out
-$(function(){
-	$('body').fadeMover();
+$(document).ready(function(){
+	$('.title-logo').fadeMover({
+		'effectType': 2,
+		'inSpeed': 1000,
+	});
 });
 
 // menu hover func
@@ -41,11 +44,3 @@ $(function(){
   });
 });
 
-// lazy load
-$(function(){
-	$('.works-img').lazyload({
-		effect: 'fadeIn',
-		effectspeed: 1000,
-		threshold: 300
-	});
-});
