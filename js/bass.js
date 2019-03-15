@@ -1,11 +1,3 @@
-// fade in out
-$(document).ready(function(){
-	$('.title-logo').fadeMover({
-		'effectType': 2,
-		'inSpeed': 1000,
-	});
-});
-
 // menu hover func
 $(function(){
 	$('#nav a').hover(function(){
